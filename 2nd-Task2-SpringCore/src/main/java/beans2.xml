@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		 http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		 http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context-3.0.xsd 
+		 http://www.springframework.org/schema/tx 
+		http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+		 http://www.springframework.org/schema/aop 
+		http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+
+
+<bean id="emp1" class="com.cg.entity.Emp">
+	<constructor-arg index="0" value="123"/>
+	<constructor-arg index="1" value="Shashwat"/>
+	<constructor-arg index="2" value="3.8"/>
+	<constructor-arg index="3" value="22-08-2019"/>
+</bean>		
+
+
+
+<bean id="emp2" class="com.cg.entity.Emp">
+	<constructor-arg index="0" value="124"/>
+	<constructor-arg index="1" value="Indra"/>
+	<constructor-arg index="2" value="3.5"/>
+	<constructor-arg index="3" value="21-06-2016"/>
+</bean>		
+</beans>
